@@ -24,6 +24,6 @@ class BasysInfo implements \Magento\Framework\View\Element\Block\ArgumentInterfa
         $this->logger->info('order id '.$this->request->getParam('order_id'));
         $order = $this->order->get(2);
         $this->logger->info('basys order id '.$order->getData('customvar'));
-        return $order->getData('customvar');
+        return $order->getData('customvar123');
     }
 }
