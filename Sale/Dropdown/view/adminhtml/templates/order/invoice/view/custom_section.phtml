@@ -1,0 +1,13 @@
+<?php $_invoice = $block->getInvoice() ?>
+<?php $_order = $_invoice->getOrder() ?>
+<section class="admin__page-section order-view-billing-shipping">
+    <div class="admin__page-section-title">
+        <span class="title"><?= $block->escapeHtml(__('Custom')) ?></span>
+    </div>
+    <div class="admin__page-section-item-content shipping-description-wrapper">
+        <div class="shipping-description-title">
+                        <?= $block->escapeHtml($_order->getCustomvar()) ?>
+                    </div>
+    </div>                
+
+</section>    

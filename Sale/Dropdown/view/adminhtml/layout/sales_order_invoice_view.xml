@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+     <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+        <body>
+         <referenceContainer name="content">
+             <block class="Sale\Dropdown\Block\Adminhtml\Order\Invoice\View\Form" name="custom.form" template="Sale_Dropdown::order/invoice/view/custom_section.phtml" after="sales_invoice_view"/>
+         </referenceContainer>
+     </body>
+    </page>
+
+   
+
